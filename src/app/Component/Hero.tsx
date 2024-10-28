@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Navbar } from "./Navbar";
-import Logo from "../public/logo.svg"; // Make sure the path is correct
+
 import Image from "next/image";
 import TypingAnimation from "../animations/Hero"; // Ensure this path is correct
 
@@ -42,7 +42,7 @@ export const Hero: React.FC = () => {
               JOIN NOW
             </button>
           </div>
-          <Image src={Logo} alt="Designo" width={400} height={400} />
+
         </div>
       </section>
     </motion.div>
