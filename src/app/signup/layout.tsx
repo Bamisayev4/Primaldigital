@@ -1,4 +1,5 @@
-import type { Metadata } from "next";
+import type { Metadata } from "next"; 
+
 
 export const metadata: Metadata = {
   title: "Sign up",
@@ -12,12 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-    
-      >
-
-          {children}     
-        </body>
+      <body>{children}</body>
     </html>
   );
 }
